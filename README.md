@@ -71,8 +71,8 @@ results, close the figure window to escape the Matplotlib figure environment.
 
 ### Running the code with different parameters
 
-Click on the markdown file    in this repository to see details and how
-to change the code parameters. 
+Click on the markdown file readme_code_input_param.md in this repository 
+to see details and how to change the code parameters. 
 
 ### Description of code files
 
