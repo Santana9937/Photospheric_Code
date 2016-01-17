@@ -59,7 +59,7 @@ const double T_phot_comv = 1.0e2/8.6173e-5 ;
 // Give photon energies in eV and then energies converted to ergs with (1.6022e-12 ergs)/eV
 // The photon index for PL is p_phot. f_nu propto nu^(1-p_phot)
 const double E_1_phot_PL = 1.00e3*1.6022e-12 ;
-const double E_2_phot_PL = 1.00e3*1.6022e-12 ;
+const double E_2_phot_PL = 1.00e4*1.6022e-12 ;
 const double p_phot = 1.5 ;
 
 // **************************************************
