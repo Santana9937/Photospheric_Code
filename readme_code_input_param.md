@@ -26,12 +26,12 @@ of paper for more discussion on this parameter.
 - **tau_initial**: Optical depth where all the photons are initilized.
 - **tau_photosphere**: Optical depth of photosphere, where the photons escape.
 
-### Photon Distribution
+### Initial Photon Distribution
 
-The code can handle to photon distributions: a Blackbody (BB) photon distrubution
+The code can handle 2 photon distributions: a Blackbody (BB) photon distrubution
 and a Power-Law (PL) photon distribution.
 
-- **photon_distr_type**: Choose the seed spectrum you want for the photons. Enter
+- **photon_distr_type**: Choose the seed photon spectrum you want for the photons. Enter
 1 for BB distribution and enter 2 for PL distribution.
 - **T_phot_comv**: Temperature of the seed photons in the jet-comoving frame.
 In the numerator, enter the photon temperature in eV. The photon temperature
@@ -44,5 +44,24 @@ in eV. Energy then converted to ergs with the conversion factor (1.6022e-12 ergs
 is choosen so that f_nu propto nu^(1-p_phot). For example, if f_nu propto nu^-0.5 is
 desired, enter p_phot = 1.5 .
 
-### Electron Distribution
+### Initial Electron Distribution
+
+The code can handle 3 electron distributions: Mono-energetic electrons (all
+the electrons initialized to the same electron Lorentz factor), 
+Maxwell-Boltzman (MB) Distribution of Electrons, and a Power-Law (PL) distribution
+of electrons. 
+
+
+- **electron_distr_type**: Choose the seed electron distribution you want 
+for the electrons. Enter 1 for mono-energetic electrons, enter 2 for MB electrons,
+and enter 3 for PL electrons.
+- **gamma_e_init_mono**: Electron Lorentz factor all the electrons are initialized
+to for mono-energetic electrons.
+- **gamma_e_init_MB**: gamma_e corresponding to electron temperature for a MB distribution.
+- **ge_1_PL**: Electron Lorentz factor where the power-law distribution of electrons begins.
+- **ge_2_PL**: Electron Lorentz factor where the power-law distribution of electrons ends.
+- **p_elec**: Power-law index for electron power-law distribution, 
+i.e. dN_e/d_gamma_e propto gamma_e^-p
+
+
 
