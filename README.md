@@ -69,5 +69,8 @@ The script then displays a window with the simulation results. Once done looking
 results, close the figure window to escape the Matplotlib figure environment. 
 
 
+### Running the code with different parameters
 
+Click on the markdown file    in this repository to see details and how
+to change the code parameters. 
 
