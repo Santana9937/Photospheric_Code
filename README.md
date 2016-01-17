@@ -74,3 +74,9 @@ results, close the figure window to escape the Matplotlib figure environment.
 Click on the markdown file    in this repository to see details and how
 to change the code parameters. 
 
+### Description of code files
+
+Click on the markdown file    in this repository to see a description
+of the files of the code.
+
+
