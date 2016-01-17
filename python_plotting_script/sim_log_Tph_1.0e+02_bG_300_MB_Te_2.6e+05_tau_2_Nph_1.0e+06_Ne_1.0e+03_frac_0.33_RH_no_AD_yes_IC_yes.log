@@ -1,0 +1,25 @@
+*Log file*
+
+************** Simulation Parameters and Properties ************** 
+------------------------------------------------------------------ 
+- Isotropic Luminosity: L_iso = 1e+51 ergs/sec
+- Photon number: Nphotons = 1.0e+06
+- Electron number: Nelectrons = 1.0e+03
+- Collected photon fraction: N_photon_fraction = 0.333333
+- Initial optical depth: tau_intial = 2
+------------------------------------------------------------------ 
+- BB Photon Distr., jet-comv T_photon = 100 eV
+- Bulk gamma: Gamma = 300
+------------------------------------------------------------------ 
+- MB Electrons, jet-comv T_e_comv = 255500 eV, corresp. gamma_e_init_MB = 2
+------------------------------------------------------------------ 
+- Electron Re-heating: OFF
+- Adiabatic Cooling: ON
+IC/Comp Scattering: ON
+Tracking 3 electrons: OFF
+Saving all E_ph that escape and final gamma_e values: OFF
+------------------------------------------------------------------
+- Ave. Num Scatt for Escape Phot: 2.28485
+- Ave. Scatt All Photons: 2.18398
+------------------------------------------------------------------
+- Code took: 25.7339 sec
