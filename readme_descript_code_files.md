@@ -30,8 +30,8 @@ A description of what each file does and the code design is given below.
 
 ### input_parameters.h
 File that contains the input parameters of the code. See
-readme_code_input_param.md file in repository for a description
-of this code file and the code parameters.
+https://github.com/Santana9937/Photospheric_Code/blob/master/readme_code_input_param.md
+for a description of this code file and the code parameters.
 
 
 
