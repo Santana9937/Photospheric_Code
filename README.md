@@ -21,11 +21,24 @@ git clone https://github.com/Santana9937/Photospheric_Code.git
 
 Or, you can click Download ZIP in the top right to download this repository.
 
-### Basics for using the code
+### Commands for running the code with GCC compiler
 
+Open a terminal and cd into the directory where you downloaded the code file.
+To compile the code, type
 
+g++ -Wall -std=c++11 -O3 main_protospheric_code.cpp -o main_protospheric_code
 
-### Running the code
+and hit enter. Once the code is successfully compiled, an executable file named
+main_protospheric_code is created. Compiling the code shouldn't take 
+longer than 5-10 seconds. We also note that we use O3 optimization flag to 
+compile the code. Then type
+
+./main_protospheric_code
+
+and hit enter to run the code. Running the code with the parameters in the repository
+should take under a minute.
+
+### Output files of code
 
 This is a code written in C++, using the C++11 language.
 
