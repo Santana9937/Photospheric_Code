@@ -109,7 +109,7 @@ of the N_photon_collect photons that escaped the photosphere at the end
 of the simulation and the gamma_e of the electrons at the end of the 
 simulation.
 
-- **ssave_all_Eph_gam_e_knob**: Enter 0 to NOT save all energies
+- **save_all_Eph_gam_e_knob**: Enter 0 to NOT save all energies
 of photons that escaped the photosphere and all electron gamma_e at
 the end of the simulation. Enter 1 to save all energies
 of photons that escaped the photosphere and all electron gamma_e at
