@@ -21,7 +21,6 @@ The files of the code are.
 [comment]: # func_proto_tuple_decl.h
 [comment]: # fund_const.h
 [comment]: # IC_Compton_scatt.h
-[comment]: # input_parameters.h
 [comment]: # main_protospheric_code.cpp
 [comment]: # photon_properties.h
 [comment]: # print_sim_prop.h
