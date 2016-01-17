@@ -51,7 +51,6 @@ the electrons initialized to the same electron Lorentz factor),
 Maxwell-Boltzman (MB) Distribution of Electrons, and a Power-Law (PL) distribution
 of electrons. 
 
-
 - **electron_distr_type**: Choose the seed electron distribution you want 
 for the electrons. Enter 1 for mono-energetic electrons, enter 2 for MB electrons,
 and enter 3 for PL electrons.
@@ -63,5 +62,58 @@ to for mono-energetic electrons.
 - **p_elec**: Power-law index for electron power-law distribution, 
 i.e. dN_e/d_gamma_e propto gamma_e^-p
 
+### Adiabatic Cooling
+
+The user has the option deciding whether or not to include the adiabatic cooling
+of photons and electrons as the jet expands outwards.
+
+- **adiab_cool_knob**: Enter 1 to include adiabatic cooling. 
+Enter 0 to NOT include adiabatic cooling
+
+### Scattering ON/OFF
+
+The user has the option deciding whether or not to include the exchange
+of energy between photons and electrons due to IC/Compton scattering.
+
+- **scatt_cool_knob**: Enter 1 to include the exchange of energy due to
+IC/Compton scattering. Enter 0 to NOT include the exchange of energy 
+due to IC/Compton scattering. 
+
+### Electron Tracking
+
+The user has the option deciding whether or not to track the gamma_e
+of 3 electrons after every scattering. See Section 5.2.4 and Figure 6
+of paper. 
+
+- **elec_tracking_knob**: Enter 0 to NOT track the gamma_e of
+3 electrons throughout the simulation. Enter 1 to track the gamma_e of
+3 electrons throughout the simulation. Note: if 1 is entered for
+elec_tracking_knob, 3 additional binary files are outputed by the code.
+
+### Bining Photon and Electron Energies
+
+The bining of the output spectrum of the photons and electrons 
+is done in the code. 
+
+- **min_log10_bin_ener_eV**: minimum value of log10(energy in eV) 
+considered for bining
+- **max_log10_bin_ener_eV**: maximum value of log10(energy in eV) 
+considered for bining
+- **bin_size_log10_eV**: bin size in log10(energy in eV) considered
+for the bining
+
+### Writing all final Photon energies and electron gamma_e to file
+
+The user has the option deciding whether or not to save all the energies
+of the N_photon_collect photons that escaped the photosphere at the end
+of the simulation and the gamma_e of the electrons at the end of the 
+simulation.
+
+- **ssave_all_Eph_gam_e_knob**: Enter 0 to NOT save all energies
+of photons that escaped the photosphere and all electron gamma_e at
+the end of the simulation. Enter 1 to save all energies
+of photons that escaped the photosphere and all electron gamma_e at
+the end of the simulation. Note: if 1 is entered for
+ssave_all_Eph_gam_e_knob, 2 additional binary files are outputed by the code.
 
 
