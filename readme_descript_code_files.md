@@ -75,4 +75,16 @@ This file contains the function that prints out all the simulation parameters
 specified in input_parameters.h to the terminal at the start of the simulation.
 
 ### main_protospheric_code.h
-This file contains the main function for the code. 
+This file contains the main function for the code. This function first checks
+if the simulation was initialized with proper input parameter in input_parameters.h.
+If not, the improper parameter is printed to the terminal and the code is
+stopped. If the code has proper input parameter, the input parameter are printed
+to the terminal and the simulation continues. The function the initializes the electrons
+and photons for the simulation. Once all the photons are initialized, a message is
+printed to the terminal. The code then does the first propagation for each
+photon and builds the priority queue (see Section 2.4 of paper). Once the priority
+queue is built, a message is printed and another message is printed, indicating that
+the simulation has now begun. The simulation then proceeds until N_photon_collect
+photons have escaped the photosphere. Once the simulation ends, the time the simulation
+took is and the average number of scatterings for the photons are printed to the terminal.
+The simulation results are then stored to binary files and the program ends.
