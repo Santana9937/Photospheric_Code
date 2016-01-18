@@ -119,6 +119,6 @@ of photons that escaped the photosphere and all electron gamma_e at
 the end of the simulation. Enter 1 to save all energies
 of photons that escaped the photosphere and all electron gamma_e at
 the end of the simulation. Note: if 1 is entered for
-save_all_Eph_gam_e_knob, 2 additional binary files are outputed by the code.
+save_all_Eph_gam_e_knob, 2 additional binary files are outputted by the code.
 
 

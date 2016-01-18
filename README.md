@@ -10,7 +10,7 @@ Feel free to e-mail me at Santana9937@gmail.com if you have any questions.
 ### Requirements for running code and plotting code results
 
 The code is written in C++11. A compiler capable of interpreting C++11 is 
-needed to run the code. The code results are outputed as binary files. 
+needed to run the code. The code results are outputted as binary files. 
 Any programming language can be used to plot the code results. In this repository, in
 https://github.com/Santana9937/Photospheric_Code/tree/master/python_plotting_script
 we include a simple Python 2.7 script to plot the code results. The Python libraries
