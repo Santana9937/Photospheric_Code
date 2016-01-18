@@ -5,13 +5,16 @@ mechanisms studied to explain the prompt gamma-ray emission from Gamma-ray Burst
 code is described in this paper: 
 http://adsabs.harvard.edu/abs/2016MNRAS.456.1049S
 
+Feel free to e-mail me at Santana9937@gmail.com if you have any questions.
+
 ### Requirements for running code and plotting code results
 
 The code is written in C++11. A compiler capable of interpreting C++11 is 
 needed to run the code. The code results are outputed as binary files. 
-Any programming language can be used to plot the code results. In this repository,
-in the file python_plotting_script, we include a simple Python 2.7 script to plot 
-the code results.
+Any programming language can be used to plot the code results. In this repository, in
+https://github.com/Santana9937/Photospheric_Code/tree/master/python_plotting_script
+we include a simple Python 2.7 script to plot the code results. The Python libraries
+Numpy and Matplotlib are needed to run this Python plotting script.
 
 ### Downloading the code
 
@@ -35,8 +38,8 @@ compile the code. Then type
 
 ./main_protospheric_code
 
-and hit enter to run the code. Running the code with the parameters in the repository
-should take under a minute.
+and hit enter to run the code (executable file). Running the code with 
+the parameters in the repository should take under a minute.
 
 ### Output files of code
 
@@ -57,26 +60,28 @@ File beginning with sim_log: Log file containing the parameters used for the sim
 ### Plotting code results
 
 In the terminal, cd in to the python_plotting_script directory. This directory 
-contains the Python file py_phot_plot_script.py used for plotting and the 4 files
-outputed at the end of the simulation. The Python libraries Numpy and Matplotlib are
-needed to run the plotting script. To run the plotting script, in the terminal type
+contains the Python file py_phot_plot_script.py , used for plotting, and the 4 files
+outputed at the end of the simulation. To run the plotting script, in the terminal type
 
 python py_phot_plot_script.py
 
 and hit enter. This python script saves the simulation results figure as a png and
 eps file with the filenames fig_phot_code.png and fig_phot_code.eps, respectively.
-The script then displays a window with the simulation results. Once done looking at
-results, close the figure window to escape the Matplotlib figure environment. 
+The script then displays a figure with the simulation results. Once you are done 
+looking at results, close the figure window to escape the Matplotlib figure environment. 
 
 
 ### Running the code with different parameters
 
-Click on the markdown file readme_code_input_param.md in this repository 
-to see details and how to change the code parameters. 
+Click on the markdown file 
+https://github.com/Santana9937/Photospheric_Code/blob/master/readme_code_input_param.md
+in this repository to see details on the code parameters and how to change 
+the code parameters. 
 
-### Description of code files
+### Description of code files and Simulation
 
-Click on the markdown file    in this repository to see a description
-of the files of the code.
-
+Click on the markdown file
+https://github.com/Santana9937/Photospheric_Code/blob/master/readme_descript_code_files.md    
+to see a description on what each file of the code does and the design of the code
+in the main function of the program.
 
