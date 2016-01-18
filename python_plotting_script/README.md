@@ -2,20 +2,20 @@
 
 In this directory, we include a simple Python 2.7 script to plot 
 the code results. The Python libraries Numpy and Matplotlib are
-needed to run the plotting script.
+needed to run the plotting script, named py_phot_plot_script.py .
+This directory also contains the 4 files outputted at the end 
+of the simulation (3 binary files and 1 log-file). 
 
-This directory contains the Python file py_phot_plot_script.py used for 
-plotting and the 4 files outputed at the end of the simulation (3 binary
-files and 1 log-file). 
-
-In the file file py_phot_plot_script.py , we first load the f_nu photon
+In the file py_phot_plot_script.py , we first load the f_nu photon
 spectrum, f_nu electron spectrum, and energy values in eV to arrays. 
 The energy values are then converted from eV to keV. The f_nu photon
 spectrum and the f_nu electron spectrum are then plotted in the same
-figure, the figure is saved to a png file and eps file in your working
-directory, and then the figure is shown in the computer. 
+figure. The figure is then saved to a png file and a eps file in 
+your working directory and the figure is then displayed
+in a window in your computer. 
 
-To run the plotting script, in the terminal type
+To run the plotting script, in the terminal cd into this directory
+and type
 
 python py_phot_plot_script.py
 
